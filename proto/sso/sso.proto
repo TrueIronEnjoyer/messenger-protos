@@ -26,5 +26,5 @@ message LoginRequest {
 }
 
 message LoginResponse {
-    bool logined = 1;
+    string token = 1;
 }
